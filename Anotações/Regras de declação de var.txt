@@ -1,0 +1,19 @@
+== Regra de declaração de variáveis 
+
+= CamonCase: é a formatação como se fosse uma espécie de camelo já que você pode usar por exemplo: daviBiba, para uso de variáveis.
+
+= uppcase: Se trata da formatação em que todas as letras da variável estão em maiúscula fazendo com que eles não possam ter uma futura alteração por exemplo: DAVIBIBA.
+
+== Regra de sintaxe
+
+= Não pode começar com numero.
+
+= Não pode usar símbolos a não ser do "$" e "_".
+
+= Não pode se iniciar com letra maiúscula.
+
+= Não pode usar palavras-chaves da linguagem ex:int, char, for,...
+
+= Não pode usar espaços.
+
+

@@ -1,0 +1,21 @@
+== Anatomia das classes
+
+= No esqueleto da linguagem java vemos o seguinte
+
+public class Nome da classe{
+
+}
+
+essa parte se refere da classe em que o arquivo se trata sendo ela o mesmo nome do arquivo .java exemplo "PrimeiroProjeto.java" já na classe principal iria ficar assim: Nome da Classe = PrimeiroProjeto.
+
+= Em relação ao: 
+
+public static void main(String[] args) {
+
+}
+
+Se trata do método que está dentro da classe PrimeiroProjeto, e nesse método será publicamente executado.
+
+= Para escrever na tela
+
+Para escrever na tela basta colocar sout que automaticamente ira se digitar "System.out.print()".

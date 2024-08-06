@@ -1,0 +1,7 @@
+==Tipos de variaveis==
+
+= int: é usada para declarar um numero.
+
+= booLean: é usada para declarar uma afirmação ou negação.
+
+= String: é usada para declarar do tipo de letras.
