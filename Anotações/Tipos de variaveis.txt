@@ -5,3 +5,29 @@
 = booLean: é usada para declarar uma afirmação ou negação.
 
 = String: é usada para declarar do tipo de letras.
+
+== Numeros quebrados == 
+
+= float
+
+= double 
+
+. Sendo o mais usado o double, já no caso de numero o mais usado é o int.
+
+== QUANDO USAR ESSES TIPOS DE VARIAVEIS? ==
+
+== Exemplos
+
+= byte: idade
+
+= short: ano
+
+= int: cep
+
+= long: cpf == 15502499405L
+
+= float: pi == 3.14F;
+
+= double: salario = 1275.33;
+
+OBS: No caso do long e do float eles terminam com a inicial deles sendo F e L.

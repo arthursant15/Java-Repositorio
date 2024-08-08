@@ -1,0 +1,5 @@
+== VARIAVEL VS CONSTANTE ==
+
+= A grande diferença que se existe entre uma variável e uma constante é que a constante ela não pode ser mudada ao longo do código, já a variável pode se alterar.
+
+= Para você poder usar a constante basta colocar um final o tipo da variável e o nome da variável ela toda em letra maiúscula
