@@ -2,7 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        long cpf = 15502499405L;
-        System.out.println("O seu CPF é: " + cpf);
+        public int somar (int a , int b){
+            int a = 10;
+            int b = 5;
+            return;
+        }
+        System.out.println(somar(int a, int b));
     }
 }

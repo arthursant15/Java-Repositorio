@@ -1,0 +1,20 @@
+== PRIMEIRO PROJETO EXPLICAÇÃO ==
+
+1. Primeiro para começar precisamos criar duas classes uma se chama de main ou usuário (eu escolhi main para dar uma ideia de principal, vinda do HTML) e uma segunda chamada de SmartTv lembrando da técnica do camon Case. 
+
+2. Criar as funcionalidades para a tv são elas: volume, mudar canal e ligar/desligar.
+
+3. criar uma classe SmartTv para ser chamada para a classe SmartTv do outro arquivo, fazendo com que ele possa estabelecer uma conexão da outra classe para a classe principal assim: SmartTv smartTv = new SmartTv();
+
+4. Em seguida você precisa estabelecer os valores iniciais das três variáveis no outro arquivo/classe sendo elas: ligada; = false (sendo do tipo boolean, estando falso que elas esteja ligada, ou seja está desligada), canal = 1; (sendo do tipo int) e volume = 25; (sendo do tipo int).
+
+5. Depois fazer as funções das funcionalidades.
+
+6. Ligar/desligar: public void ligar() {
+			ligada = true;
+}
+		   public void desligar() {
+			ligada = false;
+}
+
+7. Volume: 

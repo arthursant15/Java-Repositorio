@@ -1,0 +1,12 @@
+== Métodos == 
+
+-Os métodos são basicamente funções que temos uma chamada e dentro dela temos entre parentes os parâmetros que são passados para que sejam retornados algum resultado.
+
+-É necessário se fazer uma certa padronização para que seja implementada em uma organização laboral ou seja quando se trabalha em equipe, segue a baixo os pontos de padronização abaixo:
+
+. o nome da função/método sempre será feita no infinitivo do verbo exemplo: adicionar, somar, dividir e etc.
+
+. Deve ser formatada em camonCase (tendo de começo letra minúscula e em seguida na segunda palavra a letra maiúscula exemplo, pagarImposto).
+
+OBS: durante a minha observação nota-se que no método principal/main é assado ao lado de static do "public static void" a presença da palavra void visto que ela tem a função de não retornar valor nenhum em um método caso você coloca-la no seu método.
+
