@@ -1,0 +1,26 @@
+==SWITCH==
+
+- Essa forma de estrutura condicional se a semelhança bastante com o do java script, em que, nele se tem uma estrutura assim:
+
+	switch(nome da variavel){
+		case 1:
+		   System.out.println()
+		break;
+	}
+
+OBS: Como no java script ele necessita de uma parada, que no caso de ambas as linguagens se usa o 'break' para parar.
+
+// E para usar essa estrutura só é possível usar os tipos: int,char,String,char,byte,enum,short
+
+- Um outro exemplo é o uso do default, que tem como função executar o código caso o numero digitado nos casos seja invalido por exemplo:
+
+	switch(nome da variavel){
+		case 1:
+		   System.out.println()
+		break;
+	default:
+		System.out.println()
+		break;
+	} 
+
+	

@@ -1,0 +1,28 @@
+== ESTRUTURA DE REPETIÇÃO ==
+
+
+- No java existem três tipos de estrutura de repetição: while, do-while e o for 
+a baixo vemos exemplos deles:
+
+	1° While:
+		int c = 0  
+		while(c < ate onde você quiser){
+			c++
+			System.out.println()
+	}
+
+	2° Do-While:
+
+		int c = 0
+		
+		do{
+			c++
+			System.out.println()
+	} while(c<10)
+
+
+	3° For:
+
+	for(int c = 0;c < 10 ; c++){
+		System.out.println()
+	}
