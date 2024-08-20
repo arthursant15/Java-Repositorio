@@ -1,0 +1,5 @@
+== CASTING == 
+
+- Casting nada mais é do que uma maneira de se colocar um tipo em outro tipo como por exemplo, se eu quiser transformar o byte que teoricamente suporta menos números em inteiro basta eu fazer um seguinte:
+
+	double num = (double) 10000F;

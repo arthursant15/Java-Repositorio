@@ -17,4 +17,32 @@
 			ligada = false;
 }
 
-7. Volume: 
+7. Volume: public void abaixarVolume(){
+		volume--
+		Sytem.out.println("O volume será diminuído para: " + volume);
+}
+
+	   public void aumentarVolume(){
+		volume++
+		System.out.println("O volume será aumentado para: " + volume);
+}
+
+8. Canal: public void mudarCanal(novoCanal){
+		novoCanal;
+}
+	  public void aumentarCanal(){
+		canal++
+		System.out.println("O canal será aumentado para: " + volume);
+
+}
+	  public void diminuirCanal(){
+		canal--
+		System.out.println("O canal será diminuindo para: " + volume);
+
+}
+
+9. E para finalizar basta colocar para exibir os valores, tudo isso na parte principal do projeto o  "main" fazendo a seguinte alteração: 
+
+Sytem.out.println(ligada)
+Sytem.out.println(canal)
+Sytem.out.println(volume)
