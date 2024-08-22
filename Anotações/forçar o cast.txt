@@ -1,0 +1,3 @@
+== FORÇAR O CAST == 
+
+- Para uma variável que você declarou e não esta funcionando direito, basta você fazer um cast que seria uma forma de forcar a declaração da variável a um tipo como por exemplo: int nome da variável 1 = (int) nome da variável 2;

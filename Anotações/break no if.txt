@@ -1,0 +1,3 @@
+== BREAK NO IF ==
+
+- Você também pode dar um break no if, caso você precise para em alguma coisa no meio da repetição, basta você dar um "break"
