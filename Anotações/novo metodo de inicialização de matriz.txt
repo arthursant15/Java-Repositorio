@@ -1,0 +1,12 @@
+== NOVO METODO DE INICIALIZAÇÃO DE MATRIZ == 
+
+. Esse novo método consiste em pegar de base do array básico lá, só que o array so tem o base e não possui outros arrays para interagir entre si, nesse caso basta seguir o mesmo principio: 
+
+	int [] [] nome = new int {{1,2,3} , {1,2,3} , {1,3,4} }
+
+
+-----------------------------------------------------------------------
+
+== MÉTODO DE ESCREVER MATRIZES ==
+
+. Esse novo metodo podemos tambem se inspirar no de arrays simples que consiste em pegar um for e criar uma variavel de array base colocar um "[]" antes do seu nome ligar ela com dois pontos a matriz, e no segundo for fazer o mesmo esquema do array tradicional que consiste em pegar uma variavel de inicializaçao ligar com dois pontos com a variavel do array base e mandar imprimir a variavel de inicializaçao sendo ela quem vai receber todos os valores da matriz

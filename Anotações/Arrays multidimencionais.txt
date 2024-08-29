@@ -1,0 +1,17 @@
+==ARRYS MULTIDIMENCIONAIS / MATRIZ==
+
+. O array multidimencionnal em sua logcica/conceito se trata de que um array base serve de referência a um outro array ou mais de um, fazendo ser considerado por mim uma matriz!
+
+. Modo de se fazer ela: para fazer ela é muito simples, basta criar arrays em um array por exemplo: int [] [] num = new int [3] [3] ;, fazendo desse modo você terá uma matriz simples.
+
+. modo de escrever matriz na tela (maneira bruta): System.out.println(nome[0][0]) = nesse por exemplo vemos que a matriz faz referência a posição inicial de ambas que é 0, e então irá se escrever o numero que é guardado nessa posição.
+
+. modo de escrever matriz na tela (maneira do for normal): Para escrever as posições de uma vez basta colocar dois fors um para indicar o indice base e o outro o secundário, levando em consideração a posição 0 até a quantidade de índices que você declarou anteriormente que você pode colocar como "nome.length" que quer dizer voce pegar o comprimento do indice total, fazendo isso em ambos os fors como mostrado no exemplo a baixo: 
+
+	for (i = 0;i < nome.length;i++){
+		for(j = 0;j < nome[i].legth;j++){
+			System.out.println(nome[i][j]);
+	}
+}
+
+OBS: Nessa parte do segundo for esta estruturado da seguinte maneira "nome[i].length" em que quer dizer que ele pegou o indice que esta guardado na variavel "i" fazendo com que ele fique direcionado para o indice base ou seja, o indice que é colocado em primeiro.

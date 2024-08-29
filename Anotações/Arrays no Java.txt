@@ -1,0 +1,7 @@
+==ARRAYS NO JAVA==
+
+. Os Arrays no Java tem uma leve diferença comparado com as anteriores, já que eles já são considerados objetos, pois a variável é do tipo reference que faz referencia ao objeto.
+
+sintaxe inicial: tipo da variável [] nome da variável = new int[ate quantos índices você quiser];
+
+OBS: Na questão dos índices segue a mesma ideia de outras linguagens de sempre o índice começar pelo 0 (0...).

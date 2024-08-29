@@ -1,0 +1,9 @@
+== FOREACH ==
+
+. Esse tipo de for se refere a um novo jeito de se escrever os valores na tela servindo para array nele você cria uma variável de escopo local e em seguida de dois pontos coloca o numero do array/objeto, ficando assim em sua sintaxe:
+
+
+	for null : nomeArray{
+		System.out.println(nomeArray);
+
+}

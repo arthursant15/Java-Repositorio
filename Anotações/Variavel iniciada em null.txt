@@ -1,0 +1,3 @@
+==VARIAVEL INISIALIZADA EM NULL==
+
+- Para uma variável inicializar em null ela tem que ser do tipo referência o mesmo se encaixa para o tipo String e os Arrays que podem ser inicializados com null, já com os tipos primitivos ela não poderá ser usada como o int, doble, char e demais.

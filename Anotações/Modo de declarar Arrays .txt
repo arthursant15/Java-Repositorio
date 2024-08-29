@@ -1,0 +1,7 @@
+==MODO DE DECLARAR VARIÁVEIS ARRAYS==
+
+. Clássico: "tipo da variavel" + "[]" + "nome da variável" + "=" + "new" + "tipo de variavel" + "índice dos arrays" + ";" ex: String[] nome = new String [5];
+
+. Novo: "tipo da variavel" + "[]" + "nome da variável" + "=" + "{valores}" + ";" ex: String[] nomes = {"Goku", "Gohan"};
+
+. Misto: "tipo da variavel" + "[]" + "nome da variável" + "=" + "new" + "tipo da variável" + "[]" "{valores}" + ";" ex: int[] numero = new int []{1,2,3,4,5};

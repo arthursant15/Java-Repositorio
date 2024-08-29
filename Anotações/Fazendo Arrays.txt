@@ -1,0 +1,15 @@
+==FAZENDO ARRAYS==
+
+. Para você fazer um array simples, primeiramente basta você declarar o seu tipo de array em seguida do objeto e com quantos índices você desejar, em seguida você tem que declarar o valor do se array e por ultimo faz um "for" que serve justamente para facilitar na hora de escrever na tela todos os valores do seu array, ficando o código assim:
+
+String[] nomes = new String[4];
+        nomes[0] = "Goku";
+        nomes[1] = "Vegetta";
+        nomes[2] = "Gohan";
+        nomes[3] = "Goten";
+        for (int i = 0; i < nomes.length ; i++) {
+            System.out.println(nomes[i]);
+
+        }
+
+OBS: Esse "nomes.length" é justamente tu falando pelo código que quer que a variável "i" só pare quando for o comprimento total do array seja maior que o "i", sendo a palavra length traduzida para comprimento e consequentemente ela sendo o comprimento do tamanho do array nesse caso sendo '4'.
