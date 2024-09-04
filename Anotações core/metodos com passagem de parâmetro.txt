@@ -1,0 +1,32 @@
+== MÉTODOS COM PASSAGEM DE PARÂMETROS ==
+
+. Na passagem de parâmetros se usa o mesmo esquema anterior de criar uma classe e depois um método, em seguida na principal criar um objeto e chamar o método no objeto referido. 
+
+. O diferencial em si vai ser sua passagem de parâmetro em que consiste em criar uma ou mais variáveis no parêntese inicial do método na parte da classe de domínio, já na parte principal se da os parâmetros/valores para serem enviados no método e sair na chamada dele ficando assim: 
+
+- Na parte do domínio:
+
+package maratona.java.estudos.introducaoametodos.dominio;
+
+public class DominioParametro {
+    public void multiplicar(int num1, int num2){
+        int multiplicar = num1 * num2;
+        System.out.println("O resultado vai ser: " + multiplicar);
+    }
+}
+
+-------------------------------------------------------------------
+
+- Na parte principal: 
+
+package maratona.java.estudos.introducaoametodos.test;
+
+import maratona.java.estudos.introducaoametodos.dominio.DominioParametro;
+
+public class TestParametro {
+    public static void main(String[] args) {
+    DominioParametro multiplicar = new DominioParametro();
+    multiplicar.multiplicar(10,20);
+    }
+
+}

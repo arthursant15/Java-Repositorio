@@ -1,0 +1,28 @@
+== METODOS COM RETURN ==
+
+. Para fazer dessa maneira basta tipificar o método ao em vez de passar um "void" que seria dizer para um método que ele não iria retornar nada o que não é feito nesse caso em seguida você da o retorno da sua variável ou valor, esse valor será atribuído no método que é chamado na classe principal e você pode associar ela a uma variável ou colocar "na tóra" no System.out.println. Abaixo está uma exemplo para um melhor entendimento.
+
+- Na classe de domínio: 
+
+package maratona.java.estudos.introducaoametodos.dominio;
+
+public class DominioReturn {
+    public int dividir(int num1, int num2){
+        int dividirDois = num1/num2;
+        return dividirDois;
+    }
+}
+
+- Na classe principal: 
+
+package maratona.java.estudos.introducaoametodos.test;
+
+import maratona.java.estudos.introducaoametodos.dominio.DominioReturn;
+
+public class TestReturn {
+    public static void main(String[] args) {
+        DominioReturn dividi = new DominioReturn();
+        int resultado = dividi.dividir(2,2);
+        System.out.println(resultado);
+    }
+}

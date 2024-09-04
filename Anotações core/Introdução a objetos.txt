@@ -1,0 +1,15 @@
+== INTRODUÇÃO A OBJETOS ==
+
+. Para você o que é um objeto?
+
+  Um objeto nada mais é do que uma forma simplificada de se manipular varias informações que são trazidas do mundo real e transcritas para o java, ou quaisquer outra linguagem de programação. 
+
+
+. Mas como eu faço um objeto?
+
+  Para se fazer um objeto no java basta criar uma classe declarar as variáveis relacionadas ao objeto colocando sempre antes um "public" ex: public String nome;, assim criando uma classe, posteriormente na classe principal (a que é utilizado o método "psvm") se cria o objeto, citando a classe em que as variáveis estão em seguida como se tivesse declarando o nome de variável e depois do igual colocar o new e o nome da classe e depois abre e fecha parênteses ex: MinhaClasse classe = new MinhaClasse(); .
+
+. Mas e na hora de manipular os valores?
+
+  Na hora de manipular os valores basta colocar o nome do objeto que no caso do exemplo é "classe" e em seguida colocar um ponto final e depois a IDE vai fazer o seu trabalho em colocar o resto dos nomes das variáveis declaradas anteriormente e assim podendo acresentar, modificar ou eliminar os valores, ficando assim: classe.nome = "Arthur"; .
+

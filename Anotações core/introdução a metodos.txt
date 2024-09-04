@@ -1,0 +1,9 @@
+== INTRODUÇÃO A MÉTODOS == 
+
+. O que seria métodos?
+
+   Seria nada mais do que uma função no java, em que seja dado parâmetros em que ela retorne ou não um resultado, no java a forma chamada de "void" quer dizer que o método não irá retornar nada.
+
+. Como eu faço um método?
+
+   Para fazer um método é bastante simples, se assemelha bastante a maneira em que se faz um objeto basta você criar uma classe e depois criar o seu método sendo o void em que eu vi agora, digitando: public + void + nome do método + () +; e em seguida as instruções que você quer dar no método, agora na parte principal você cria um objeto com a classe do método, depois de criado o objeto coloca o nome dele + . + o nome do método + ; chamando assim o método para a parte principal. 
