@@ -1,0 +1,39 @@
+== PASSAGEM DE PARÂMETROS COM TIPOS PRIMITIVOS == 
+
+. Nessa passagem de parâmetro podemos concluir que a variável em que se passa o parâmetro por ela não ser do tipo referencial ela acaba sendo uma copia e qualquer alteração na do método pode mudar seu valor a partir de uma variável local.
+
+- Na parte do domínio:
+
+package maratona.java.estudos.introducaoametodos.dominio;
+
+public class DominioReturnPrt02 {
+    public void alterandoDoisNumeros(int num1, int num2){
+        num1 = 10;
+        num2 = 20;
+        System.out.println("alterandoDoisNumeros");
+        System.out.println("Num1: " + num1);
+        System.out.println("Num2: " + num2);
+
+    }
+}
+
+
+- Na parte principal:
+
+package maratona.java.estudos.introducaoametodos.test;
+
+import maratona.java.estudos.introducaoametodos.dominio.DominioReturnPrt02;
+
+public class TestReturnPart02 {
+    public static void main(String[] args) {
+        DominioReturnPrt02 mudarNumero = new DominioReturnPrt02();
+        int num1 = 1;
+        int num2 = 2;
+        mudarNumero.alterandoDoisNumeros(num1,num2);
+        System.out.println("-----------------");
+        System.out.println("TestReturnPart02");
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
+
+    }
+}

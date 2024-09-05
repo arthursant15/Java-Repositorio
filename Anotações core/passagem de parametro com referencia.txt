@@ -1,0 +1,53 @@
+== PASSAGEM DE PARAMETRO COM REFERENCIA ==
+
+public class DominioParametroReference {
+    public String nome;
+    public int idade;
+    public char sexo;
+}
+
+. Neste exemplo a cima esta a classe de dominio onde fica os dados.
+
+---------------------------------------------------------------------
+public class ImprimeEstudante{
+    public void imprime (DominioParametroReference estudante){
+        System.out.println("-------------------");
+        System.out.println(estudante.nome);
+        System.out.println(estudante.idade);
+        System.out.println(estudante.sexo);
+
+    }
+}
+
+. Para você fazer uma passagem de parâmetro com referencia basta colocar no seu método uma variável de referencia como vimos no exemplo a cima a chamada esta ligada a uma variavel reference estudante ao DominioParametroReference.
+
+---------------------------------------------------------------------
+
+package maratona.java.estudos.introducaoametodos.test;
+
+import maratona.java.estudos.introducaoametodos.dominio.DominioParametroReference;
+import maratona.java.estudos.introducaoametodos.dominio.ImprimeEstudante;
+
+public class TestParametroReference {
+    public static void main(String[] args) {
+        DominioParametroReference estudante1 = new DominioParametroReference();
+        DominioParametroReference estudante2 = new DominioParametroReference();
+        ImprimeEstudante imprime = new ImprimeEstudante();
+
+        estudante1.nome = "Arthur Santiago";
+        estudante1.idade = 19;
+        estudante1.sexo = 'M';
+
+        estudante2.nome = "Davi Santiago";
+        estudante2.idade = 14;
+        estudante2.sexo = 'M';
+
+        //Antes do ponto = objeto de referencia
+        //Depois do ponto = Metodo "DominioParametroReference"
+        //Nos parenteses eu passei o parametro os objetos que referenciam para imprimir os valores
+        imprime.imprime(estudante1);
+        imprime.imprime(estudante2);
+    }
+}
+
+. É criada um objeto de imprimir os nomes em baixo dos dois objetos dos estudantes 1 e 2, e a ultima parte chamada "imprime.imprime(estudante1 e 2)" se refere a chamada do método de imprimir sendo o primeiro imprimir o seu objeto da classe principal e o segundo imprime se refere ao método propriamente dito com a passagem de parâmetro um objeto que é linkada a variável de referencia no parâmetro do método da classe ImprimeEstudante.
