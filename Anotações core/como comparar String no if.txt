@@ -1,0 +1,3 @@
+== COMO COMPARAR A STRING NO IF ==
+
+. Como uma String é um ojbejto ela se comporta como qual, sendo diferente dos demais tipos primitivos como por exemplo o int em que se compara assim: if (int num==0); , já a forma em que se compara a String é o seguinte: if(nome.equal("a String que você quer comparar"))
