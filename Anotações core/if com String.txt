@@ -1,0 +1,3 @@
+== IF COM STRINGS ==
+
+. Para Strings necessitamos do comando nome.equal(nome que você quer comparar); ex: 
