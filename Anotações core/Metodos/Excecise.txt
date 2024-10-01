@@ -1,0 +1,29 @@
+== EXCECISE ==
+
+. Nesse exercício do dojo jiraia ele mandou fazer uma classe funcionários que tinha os dados como nome,idade e três salários do mesmo funcionário, criar um método de imprimir os dados e depois um outro método de tirar a media salarial e imprimir a mesma.
+
+modo de se resolver -> para resolver esse problema basta criar a classe domínio que ira ficar guardadas as variáveis publics do objeto que sera criado na classe principal, eu chamei ele de funcionario01 e depois acrescentando os valores para cada um dos dados, já no caso dos salários como ele pediu três devemos colocar um array tanto na classe domínio, que ficará assim -> public double [] salario; e na parte principal ficou assim -> funcionario01.salario = new double [] {os numeros}, ficando assim na parte principal por que como um array é referencia a um objeto, logo precisa ser ligado a um. feito isso o método imprimir que será responsável por imprimir o nome, idade e salario, ficando assim ->  
+
+public void imprimir(){
+        System.out.println("----------------------------------");
+        System.out.println("O nome do funcionário é: " + this.nome);
+        System.out.println("A idade do funcionário "+ this.nome + " é: " +this.idade);
+        for (double num : this.salario) {
+            System.out.println(num);
+        }
+    }
+
+Já a parte do método da media faz um seguinte ->
+ public void media() {
+        double media= 0;
+        for (double num : salario){
+            media += num;
+        }
+        System.out.println("A soma de todos os salarios é: " + media);
+        media = media / salario.length;
+        System.out.println("A média dos salarios é: " + media);
+    }
+
+explicação desse método media -> no método possui a variável double media iniciando com 0, depois fazendo o foreach e acrescentando os três salários a variável media e depois fazendo media dividido pelo comprimento do array salario, ou seja se tiver três salários então se considerara três como numero.
+
+Para se prevenir de erros basta colocar um if de para que garanta que os dados sejam preenchidos assim o código ficando mais prevenido de futuros erros.

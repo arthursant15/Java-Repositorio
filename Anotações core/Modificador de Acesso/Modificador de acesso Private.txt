@@ -1,0 +1,3 @@
+== Modificador de acesso Private == 
+
+. Nesse modificador de acesso ele basicamente priva o acesso hehehe para não só a parte principal do código como qualquer que tentem acessar ele através de um objeto que não esteja na classe que ele está e sua sintaxe é semelhante ao public por ambos se tratarem de modificadores de acessos. Exemplo, na hora de colocar public na parte domínio coloca privado, ou seja ao em vez de colocar -> public String nome, passamos a colocar private String nome.

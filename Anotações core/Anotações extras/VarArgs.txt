@@ -1,0 +1,37 @@
+== VARARGS ==
+
+. O VarArgs serve para 'simplificar' de modo que pode considerar ele como um array. como pode-se notar no exemplo a baixo: 
+
+Na parte do domínio:
+
+package maratona.java.estudos.introducaoametodos.dominio;
+
+
+public class VarArgsDominio {
+    public void somarVarArgs(int...numeros){
+        int soma= 0;
+        for (int num: numeros ){
+            soma+=num;
+        }
+            System.out.println("A soma total é: " + soma);
+    }
+}
+
+
+Na parte do Test:
+
+package maratona.java.estudos.introducaoametodos.test;
+
+
+import maratona.java.estudos.introducaoametodos.dominio.VarArgsDominio;
+
+public class VarArgsTest {
+    public static void main(String[] args) {
+        VarArgsDominio dominio = new VarArgsDominio();
+   	//Parte com Array 	  
+	int [] numeros = {1,2,4,5,7,7,4};
+        dominio.somarVarArgs(numeros);
+	//Parte com VarArgs
+	dominio.somarVarArgs(1,3,2,3,4,5,4);
+    }
+}

@@ -1,0 +1,44 @@
+== THIS NO JAVA ==
+
+. O this é uma palavra reservada que quando você quer se referir algo que esteja no seu objeto, a palavra this vem do inglês esse, no qual parte a ideia de se referir a esse objeto, como vemos no exemplo a baixo:
+
+Na parte do Dominio:
+
+package maratona.java.estudos.introducaoametodos.dominio;
+
+public class DominioThis {
+    public String nome;
+    public int idade;
+    public char sexo;
+
+    public void imprime(){
+        System.out.println(this.nome);
+        System.out.println(this.idade);
+        System.out.println(this.sexo);
+    }
+}
+
+
+E na parte do Test:
+
+package maratona.java.estudos.introducaoametodos.test;
+
+import maratona.java.estudos.introducaoametodos.dominio.DominioThis;
+
+public class TestThis {
+    public static void main(String[] args) {
+        DominioThis estudante1 = new DominioThis();
+        DominioThis estudante2 = new DominioThis();
+
+        estudante1.nome = "Arthur Santiago";
+        estudante1.idade = 19;
+        estudante1.sexo = 'M';
+
+        estudante2.nome = "Veronica Santiago";
+        estudante2.idade = 49;
+        estudante2.sexo = 'F';
+
+        estudante1.imprime();
+        estudante2.imprime();
+    }
+}

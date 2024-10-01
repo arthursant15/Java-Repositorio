@@ -1,0 +1,30 @@
+== USO DO GET == 
+
+. No caso do uso no get pode considerar que ele "pega" a classe que esta privada pra mandar pra principal através de um método que joga o valor pra principal ficando assim na parte da classe privada:
+
+public class DominioPrivate {
+    private String nome;
+    private int idade;
+
+public String getNome(){
+        return this.nome;
+    }
+    public int getIdade(){
+        return this.idade;
+    }
+}
+
+E assim na classe principal:
+
+public class TestPrivate {
+    public static void main(String[] args) {
+        DominioPrivate individuo = new DominioPrivate();
+        individuo.setNome("Arthur");
+        individuo.setIdade(19);
+        //individuo.imprimir();
+        System.out.println(individuo.getNome());
+        System.out.println(individuo.getIdade());
+    }
+}
+
+OBS: O METODO 'GET' EM QUESTÃO É USADO AI NESSE EXEMPLO PARA PODER SUBSTITUIR O METODO DE IMPRIMIR JÁ QUE O GET RETORNA UM VALOR DIFERENTE DO SET QUE NÃO RETORNA NADA USANDO O "VOID" NA SUA DECLARAÇÃO, JÁ O GET USANDO O TIPO DO ATRIBUTO EM QUESTÃO.
