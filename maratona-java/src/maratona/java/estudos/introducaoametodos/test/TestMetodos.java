@@ -4,10 +4,8 @@ import maratona.java.estudos.introducaoametodos.dominio.Dominio;
 
 public class TestMetodos {
     public static void main(String[] args) {
-    Dominio calculadora = new Dominio();
-
-
-    calculadora.somar();
+    String numero[]= {"Arthur"};
+        System.out.println(numero.toString());
     }
 }
 

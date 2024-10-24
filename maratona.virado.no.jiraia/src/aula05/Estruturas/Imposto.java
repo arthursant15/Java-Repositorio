@@ -1,14 +1,30 @@
 package aula05.Estruturas;
+
+import java.util.Scanner;
+
 //Impostos pagos no Brasil
-public class Condicionais {
+public class Imposto {
     public static void main(String[] args) {
-        int renda = 3000;
+        Scanner ler = new Scanner(System.in);
+        int c = 1;
+        while (c!=2){
+
+        System.out.println("==========RENDA============");
+        System.out.println("Digite a sua renda: ");
+        int renda = ler.nextInt();
         double impostoDeRenda = renda * 0.18D;
-        int ativos = 500000;
-        int passivos = 300000;
+
+        System.out.println("===========PATRIMÔNIO===========");
+        System.out.println("Digite seus ativos e passivos");
+        System.out.println("Ativos: ");
+        int ativos = ler.nextInt();
+        System.out.println("Passivos: ");
+        int passivos = ler.nextInt();
         int patrimonio = ativos - passivos;
         double inpostoDoSeuPatrimonio = patrimonio* 0.03;
-        double precoDoProduto = 4000;
+        System.out.println("===========PRODUTO DE COMPRA===========");
+        System.out.println("Digite o preço do produto: ");
+        double precoDoProduto = ler.nextDouble();
         double dolar = precoDoProduto/5.48;
         double taxaDeImportacaoAte50 = precoDoProduto * 0.2;
         double taxaDeImportacaoMaisDe50 = precoDoProduto * 0.6;
@@ -56,6 +72,11 @@ public class Condicionais {
             System.out.println("Catapimbas companheiro :(");
             System.out.println("Você vai ser isento do imposto do amor :/");
             System.out.println("E vai pagar o valor de: R$" +precoDoProduto);
+        }
+            System.out.println("Caso deseja continuar ou parar digite: ");
+            System.out.println("Continuar -> 1");
+            System.out.println("Parar -> 2");
+            c = ler.nextInt();
         }
     }
 }
