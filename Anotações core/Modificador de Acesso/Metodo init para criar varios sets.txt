@@ -1,0 +1,1 @@
+Para fazer o método init (iniciar vários sets de uma vez) é preciso criar um método public void init () e nas aspas passar os parâmetros dos atributos em que você deseja setar colocando os tipos e em seguida seus respectivos nomes e dentro do método colocar this.nomeDaVaravel = nomeDaVariavel, fazendo isso com todas, já na parte 
