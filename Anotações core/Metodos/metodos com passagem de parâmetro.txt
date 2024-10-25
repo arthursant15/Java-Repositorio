@@ -21,7 +21,7 @@ public class DominioParametro {
 
 package maratona.java.estudos.introducaoametodos.test;
 
-import maratona.java.estudos.introducaoametodos.dominio.DominioParametro;
+import dominio.introducaoametodos.JavaCore.DominioParametro;
 
 public class TestParametro {
     public static void main(String[] args) {

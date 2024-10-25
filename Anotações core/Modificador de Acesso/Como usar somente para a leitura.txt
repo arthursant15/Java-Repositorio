@@ -1,0 +1,1 @@
+Para fazer isso é muito simples, basta tirar o método set e deixando apenas o método get, fazendo assim com que eles percam o acesso ao atributo em que essas instruções são feitas, (Visto que, o método set ele "seta" o atributo, armazenando ele em uma outra variável, sendo ela de referencia).

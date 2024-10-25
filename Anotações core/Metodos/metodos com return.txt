@@ -17,7 +17,7 @@ public class DominioReturn {
 
 package maratona.java.estudos.introducaoametodos.test;
 
-import maratona.java.estudos.introducaoametodos.dominio.DominioReturn;
+import dominio.introducaoametodos.JavaCore.DominioReturn;
 
 public class TestReturn {
     public static void main(String[] args) {

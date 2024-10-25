@@ -1,0 +1,1 @@
+Para você conseguir isso basta clicar Alt + Insert, ai você ira acessar uma ferramenta da IDE que automatiza a inserção do set e get

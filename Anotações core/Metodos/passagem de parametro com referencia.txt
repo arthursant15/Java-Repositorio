@@ -25,8 +25,8 @@ public class ImprimeEstudante{
 
 package maratona.java.estudos.introducaoametodos.test;
 
-import maratona.java.estudos.introducaoametodos.dominio.DominioParametroReference;
-import maratona.java.estudos.introducaoametodos.dominio.ImprimeEstudante;
+import dominio.introducaoametodos.JavaCore.DominioParametroReference;
+import dominio.introducaoametodos.JavaCore.ImprimeEstudante;
 
 public class TestParametroReference {
     public static void main(String[] args) {

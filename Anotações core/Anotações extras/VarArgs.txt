@@ -23,7 +23,7 @@ Na parte do Test:
 package maratona.java.estudos.introducaoametodos.test;
 
 
-import maratona.java.estudos.introducaoametodos.dominio.VarArgsDominio;
+import dominio.introducaoametodos.JavaCore.VarArgsDominio;
 
 public class VarArgsTest {
     public static void main(String[] args) {

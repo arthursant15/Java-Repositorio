@@ -23,7 +23,7 @@ E na parte do Test:
 
 package maratona.java.estudos.introducaoametodos.test;
 
-import maratona.java.estudos.introducaoametodos.dominio.DominioThis;
+import dominio.introducaoametodos.JavaCore.DominioThis;
 
 public class TestThis {
     public static void main(String[] args) {

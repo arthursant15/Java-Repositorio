@@ -26,7 +26,7 @@ Como podemos ver no código a cima o método set modifica o atributo nome e idad
 
 Já na parte principalpackage maratona.java.estudos.introducaoametodos.test;
 
-import maratona.java.estudos.introducaoametodos.dominio.DominioPrivate;
+import dominio.introducaoametodos.JavaCore.DominioPrivate;
 
 public class TestPrivate {
     public static void main(String[] args) {

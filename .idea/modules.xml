@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introdução/Introdução.iml" filepath="$PROJECT_DIR$/Introdução/Introdução.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Repositorio.iml" filepath="$PROJECT_DIR$/.idea/Java-Repositorio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maratona-java/maratona-java.iml" filepath="$PROJECT_DIR$/maratona-java/maratona-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maratona.virado.no.jiraia/maratona.virado.no.jiraia.iml" filepath="$PROJECT_DIR$/maratona.virado.no.jiraia/maratona.virado.no.jiraia.iml" />
       <module fileurl="file://$PROJECT_DIR$/primeiro-projeto/primeiro-projeto.iml" filepath="$PROJECT_DIR$/primeiro-projeto/primeiro-projeto.iml" />
     </modules>
   </component>

@@ -22,7 +22,7 @@ public class DominioReturnPrt02 {
 
 package maratona.java.estudos.introducaoametodos.test;
 
-import maratona.java.estudos.introducaoametodos.dominio.DominioReturnPrt02;
+import dominio.introducaoametodos.JavaCore.DominioReturnPrt02;
 
 public class TestReturnPart02 {
     public static void main(String[] args) {
