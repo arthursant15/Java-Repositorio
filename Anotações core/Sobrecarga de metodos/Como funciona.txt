@@ -1,0 +1,7 @@
+Em um método normal temos a área de argumentos em que é representada entre os parênteses e ela pode ser associado a diversos atributos (variáveis) e quando uma variável nova é adicionada, é como se houvesse um outro método a ser usado.
+
+ex: public void init (String a, int n){} (aqui é um)
+
+public void init (String a, ini n , float c) (aqui é outro)
+
+OBS: Note que ambos possuem o mesmo nome, porem são completamente diferentes.

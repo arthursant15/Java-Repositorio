@@ -1,0 +1,23 @@
+Na parte do Dominio: 
+
+public DomConstrutores(String nome, int ano_de_publicacao, String autor, String genero, String personagem){
+        this();
+        this.nome = nome;
+        this.ano_de_publicacao = ano_de_publicacao;
+        this.autor = autor;
+        this.genero = genero;
+        this.personagem = personagem;
+    }
+
+    public DomConstrutores(String nome, int ano_de_publicacao, String autor, String genero, String personagem, String  empresa){
+        this(nome, ano_de_publicacao,autor,genero,personagem);
+        this.empresa = empresa;
+    }
+
+    public DomConstrutores(){
+        System.out.println("Construtor sem argumento.");
+    }
+
+Na parte de Teste: 
+
+        DomConstrutores anime = new DomConstrutores("Dragon ball", 1986, "Akira Toriyama", "Luta", "Goku", "Toei Animation");

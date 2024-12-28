@@ -1,0 +1,15 @@
+Funciona da seguinte forma, nele temos o modificador de acesso publico, que é atribuído o método só que sem nenhum tipo de retorno e sem o void, e seus atributos podemos preencher os dados/atributos, logo depois nós indicamos que os atributos da classe a cima iram receber o valor das variáveis, ficando assim:
+
+Na parte de domínio: 
+public DomConstrutores(String nome, int ano_de_publicacao, String autor, String genero, String personagem){
+        this.nome = nome;
+        this.ano_de_publicacao = ano_de_publicacao;
+        this.autor = autor;
+        this.genero = genero;
+        this.personagem = personagem;
+
+    }
+
+Na parte de teste: 
+DomConstrutores anime = new DomConstrutores("Dragon ball", 1986, "Akira Toriyama", "Luta", "Goku");
+        

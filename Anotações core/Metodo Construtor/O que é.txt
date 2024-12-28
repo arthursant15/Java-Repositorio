@@ -1,0 +1,1 @@
+Se trata de um método em que constrói o objeto, tem uma ideia parecida de um método inicializador, ele se comporta como um objeto de fato, no argumento do objeto colocamos os dados de cada atributo.

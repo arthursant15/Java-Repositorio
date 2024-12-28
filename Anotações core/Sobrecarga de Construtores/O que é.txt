@@ -1,0 +1,1 @@
+Tem a ideia parecida com a sobrecarga de métodos, que consiste em usar um construtor com o mesmo nome, porem com diferenças em seus argumentos.

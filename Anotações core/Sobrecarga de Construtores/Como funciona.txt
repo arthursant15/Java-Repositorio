@@ -1,0 +1,3 @@
+Funciona da seguinte forma: 
+
+Quando tivemos mais de um construtor com o mesmo nome temos que diferencia-lo com diferentes argumentos, logo após podemos chamar os demais com o seguinte comando "this()" caso o construtor tiver argumento basta coloca-los entre os parênteses, caso não tem que ficar vazio.
