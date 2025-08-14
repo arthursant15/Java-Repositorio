@@ -1,0 +1,44 @@
+Nível Médio (Lógica mais trabalhada)
+Fatorial
+
+Receba um número e calcule o fatorial dele.
+(Ex: 5! = 5×4×3×2×1 = 120)
+
+Números Primos
+
+Receba um número e diga se ele é primo.
+
+Inverter String
+
+Receba uma palavra e mostre ela invertida.
+(Ex: “Java” → “avaJ”)
+
+Soma de Números Pares até N
+
+Receba um número e some todos os pares até ele.
+
+Sequência de Fibonacci
+
+Mostre os primeiros N números da sequência.
+
+Nível Difícil (Pensamento mais estruturado)
+Jogo da Adivinhação
+
+O computador “pensa” em um número de 1 a 100 e o usuário tenta adivinhar, recebendo dicas “maior” ou “menor”.
+
+Caixa Eletrônico
+
+Receba um valor e informe quantas notas de 100, 50, 20, 10, 5 e 1 são necessárias.
+
+Palíndromo
+
+Receba uma palavra ou frase e diga se ela é um palíndromo.
+(Ex: “arara” → verdadeiro)
+
+Validação de CPF
+
+Receba um CPF e verifique se ele é válido usando o cálculo dos dígitos verificadores.
+
+Matriz Transposta
+
+Gere uma matriz 3x3 e mostre sua transposta.
